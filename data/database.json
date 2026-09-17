@@ -1,0 +1,167 @@
+{
+  "admin": {
+    "id": "admin_root",
+    "email": "admin@devbyshukla.com",
+    "passwordHash": "$2b$10$tyga5xadlx2p0Ei7c4Mt8OyLan7UV8XnEAUZHqfhGKebyGQkqVKLy",
+    "name": "Satyam Shukla (Admin)",
+    "updatedAt": "2026-09-17T10:16:59.926Z"
+  },
+  "reviews": [
+    {
+      "_id": "rev_b54bfd04-9986-414b-96c7-b39f97f4b35f",
+      "name": "Vikas Sharma",
+      "email": "vikas@technocraft.in",
+      "photoUrl": "https://res.cloudinary.com/xwxsybfa/image/upload/v1789644522/devbyshukla/reviews/k1nzuq98gdiinho90haz.png",
+      "rating": 5,
+      "reviewText": "Cloudinary image upload test with real customer testimonial.",
+      "status": "pending",
+      "createdAt": "2026-09-17T11:28:44.379Z",
+      "updatedAt": "2026-09-17T11:28:44.379Z"
+    },
+    {
+      "_id": "rev_1ec6be3f-372f-45ca-94fc-01d3a822f2df",
+      "name": "Arjun Kapoor",
+      "email": "arjun@vertextechnologies.in",
+      "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "reviewText": "DevByShukla built a phenomenal website for our B2B SaaS startup. Conversion rate jumped 60% in the first month!",
+      "status": "approved",
+      "createdAt": "2026-09-17T10:30:35.492Z",
+      "updatedAt": "2026-09-17T10:30:35.697Z"
+    },
+    {
+      "_id": "rev_58547e46-0258-45d8-991e-2ad4b3c27662",
+      "name": "Rohan Kulkarni",
+      "email": "rohan@techscale.co",
+      "photoUrl": "https://ui-avatars.com/api/?name=RO&background=0284c7&color=ffffff&bold=true",
+      "rating": 5,
+      "reviewText": "DevByShukla delivered beyond our expectations! Highly recommended agency.",
+      "status": "approved",
+      "createdAt": "2026-09-17T10:21:57.231Z",
+      "updatedAt": "2026-09-17T10:21:57.370Z"
+    },
+    {
+      "_id": "rev_22ec2c14-0860-40e4-85d9-64e160c907d5",
+      "name": "Rahul Sharma",
+      "email": "rahul@test.com",
+      "photoUrl": "https://ui-avatars.com/api/?name=RA&background=0284c7&color=ffffff&bold=true",
+      "rating": 5,
+      "reviewText": "Excellent service and very professional website development.",
+      "status": "pending",
+      "createdAt": "2026-09-17T10:17:07.207Z",
+      "updatedAt": "2026-09-17T10:17:07.207Z"
+    },
+    {
+      "_id": "rev_6f90713b",
+      "name": "Dr. Alok Verma",
+      "email": "alok.verma@carepulse.in",
+      "photoUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=200&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "reviewText": "DevByShukla built an exceptional website for our multi-specialty clinic. Patient appointment inquiries have surged by 45%, and the mobile booking flow works seamlessly.",
+      "status": "approved",
+      "createdAt": "2026-09-05T10:16:59.926Z",
+      "updatedAt": "2026-09-05T10:16:59.926Z"
+    },
+    {
+      "_id": "rev_d4822b3b",
+      "name": "Priya Nambiar",
+      "email": "priya@eduglobal.ac.in",
+      "photoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "reviewText": "Outstanding experience! Our international academy website needed a massive speed and design overhaul. DevByShukla completed it in under 2 weeks with perfect score performance.",
+      "status": "approved",
+      "createdAt": "2026-09-09T10:16:59.926Z",
+      "updatedAt": "2026-09-09T10:16:59.926Z"
+    },
+    {
+      "_id": "rev_b5884ef3",
+      "name": "Vikramaditya Roy",
+      "email": "vikram@styleupfashion.com",
+      "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "reviewText": "DevByShukla delivered our modern e-commerce storefront right on schedule. The checkout process is frictionless and our customers constantly compliment the high-end design.",
+      "status": "approved",
+      "createdAt": "2026-09-13T10:16:59.926Z",
+      "updatedAt": "2026-09-13T10:16:59.926Z"
+    },
+    {
+      "_id": "rev_341c0283",
+      "name": "Ananya Deshmukh",
+      "email": "ananya@creativescape.io",
+      "photoUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "reviewText": "The attention to typography, micro-interactions, and conversion architecture is phenomenal. Worth every rupee. Highly recommended for any serious business.",
+      "status": "approved",
+      "createdAt": "2026-09-15T10:16:59.926Z",
+      "updatedAt": "2026-09-15T10:16:59.926Z"
+    },
+    {
+      "_id": "rev_pending_demo_1",
+      "name": "Karan Mehta",
+      "email": "karan@mehtarealty.com",
+      "photoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "reviewText": "Super fast delivery and clean responsive layout for our real estate luxury agency. The lead capture rates are visibly higher now!",
+      "status": "pending",
+      "createdAt": "2026-09-17T07:16:59.926Z",
+      "updatedAt": "2026-09-17T07:16:59.926Z"
+    }
+  ],
+  "enquiries": [
+    {
+      "_id": "enq_42df3e2f-124e-4902-9d69-5ab5b6575ce2",
+      "name": "Meera Singhania",
+      "email": "meera@singhaniagroup.com",
+      "phone": "+91 9820011223",
+      "company": "Singhania Hospitality",
+      "businessType": "Restaurant & Luxury Resort",
+      "projectType": "Complete Brand Redesign",
+      "budget": "₹1,00,000 - ₹2,50,000",
+      "message": "We need a luxury responsive website with online table reservations and guest feedback portal.",
+      "status": "Contacted",
+      "createdAt": "2026-09-17T10:30:35.732Z",
+      "updatedAt": "2026-09-17T10:30:35.743Z"
+    },
+    {
+      "_id": "enq_d5d424a0-0dd9-4d1e-85b4-405f7bb8cf77",
+      "name": "Sneha Kapoor",
+      "email": "sneha@luxedesign.in",
+      "phone": "9876543210",
+      "company": "Luxe Design Studios",
+      "projectType": "E-commerce Store",
+      "budget": "₹50,000 - ₹1,00,000",
+      "message": "We need a complete modern redesign of our catalog store.",
+      "status": "New",
+      "createdAt": "2026-09-17T10:21:57.382Z",
+      "updatedAt": "2026-09-17T10:21:57.382Z"
+    },
+    {
+      "_id": "enq_demo_1",
+      "name": "Rajesh Singhania",
+      "email": "rajesh@singhaniagroup.in",
+      "phone": "+91 98110 54321",
+      "company": "Singhania Logistics Ltd",
+      "businessType": "B2B Enterprise",
+      "projectType": "Web Portal & Tracking",
+      "budget": "₹1,00,000 - ₹2,00,000 / $1,200 - $2,500",
+      "message": "Looking to redesign our corporate website and build a customer shipment status lookup portal. Need this ready before next quarter.",
+      "status": "New",
+      "createdAt": "2026-09-17T05:16:59.926Z",
+      "updatedAt": "2026-09-17T05:16:59.926Z"
+    },
+    {
+      "_id": "enq_demo_2",
+      "name": "Sneha Kapoor",
+      "email": "sneha@theartisancafe.com",
+      "phone": "+91 98200 98765",
+      "company": "The Artisan Cafe & Bakery",
+      "businessType": "Restaurant / Cafe",
+      "projectType": "Business Website",
+      "budget": "₹20,000 - ₹50,000 / $250 - $600",
+      "message": "We are opening a second boutique cafe branch in Bangalore and want an interactive digital menu, reservation form, and Instagram feed integration.",
+      "status": "Contacted",
+      "createdAt": "2026-09-16T06:16:59.926Z",
+      "updatedAt": "2026-09-16T14:16:59.926Z"
+    }
+  ]
+}

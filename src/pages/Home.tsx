@@ -19,9 +19,33 @@ import { TestimonialCard } from '../components/TestimonialCard';
 import { servicesData } from '../data/services';
 import { projectsData } from '../data/projects';
 import { testimonialsData } from '../data/testimonials';
+import { fetchPublicApprovedReviews } from '../services/adminApi';
+import { ReviewItem, TestimonialItem } from '../types';
 
 export const Home: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const [approvedReviews, setApprovedReviews] = useState<ReviewItem[]>([]);
+
+  React.useEffect(() => {
+    fetchPublicApprovedReviews()
+      .then((data) => setApprovedReviews(data))
+      .catch((err) => console.warn('Could not fetch home reviews:', err));
+  }, []);
+
+  const homeTestimonials: TestimonialItem[] = approvedReviews.length > 0
+    ? approvedReviews.slice(0, 3).map((r) => ({
+        id: r._id,
+        name: r.name,
+        role: 'Verified Client',
+        company: 'DevByShukla Project',
+        avatarUrl: r.photoUrl,
+        quote: r.reviewText,
+        rating: r.rating,
+        projectType: 'Website Development',
+        isSample: false,
+      }))
+    : testimonialsData.slice(0, 3);
+
 
   // Filter categories matching the reference
   const categories = [
@@ -337,9 +361,9 @@ export const Home: React.FC = () => {
             darkTheme={false}
           />
 
-          {/* 3 Testimonial cards matching reference: Priya Sharma, Dr. Amit Verma, Rahul Mehta */}
+          {/* 3 Testimonial cards matching reference */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
-            {testimonialsData.slice(0, 3).map((item) => (
+            {homeTestimonials.map((item) => (
               <TestimonialCard key={item.id} testimonial={item} />
             ))}
           </div>
