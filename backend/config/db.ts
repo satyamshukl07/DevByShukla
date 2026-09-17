@@ -17,6 +17,11 @@ export function getMongoURI(): string | undefined {
 }
 
 export async function connectDB(): Promise<boolean> {
+  if (mongoose.connection.readyState === 1) {
+    mongoConnected = true;
+    return true;
+  }
+
   const uri = getMongoURI();
 
   if (!uri || !uri.trim()) {
