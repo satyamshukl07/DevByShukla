@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="devGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer Gradient Rounded Square -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#devGrad)"/>
+  <!-- Inner Navy Background -->
+  <rect x="5.5" y="5.5" width="53" height="53" rx="13" fill="#0b1120"/>
+  <!-- Code2 Icon Brackets and Slash -->
+  <g stroke="#60a5fa" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Right bracket > -->
+    <path d="M42 24 L50 32 L42 40"/>
+    <!-- Left bracket < -->
+    <path d="M22 24 L14 32 L22 40"/>
+    <!-- Center slash / -->
+    <path d="M35 18 L29 46"/>
+  </g>
+</svg>
