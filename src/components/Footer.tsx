@@ -194,8 +194,12 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar matching reference */}
         <div className="mt-14 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <div>
-            © 2026 DevByShukla. All rights reserved.
+          <div className="flex items-center gap-3">
+            <span>© 2026 DevByShukla. All rights reserved.</span>
+            <span className="text-slate-700">•</span>
+            <Link to="/admin" className="text-slate-600 hover:text-slate-400 transition-colors">
+              Admin Portal
+            </Link>
           </div>
           <div className="flex items-center gap-1 text-slate-400">
             <span>Made with</span>
